@@ -2,14 +2,14 @@ package com.grpcflix.aggregator.service;
 
 import com.grpcflix.aggregator.dto.RecommendedMovie;
 import com.grpcflix.aggregator.dto.UserGenre;
-import com.vinsguru.grpcflix.common.Genre;
-import com.vinsguru.grpcflix.movie.MovieSearchRequest;
-import com.vinsguru.grpcflix.movie.MovieSearchResponse;
-import com.vinsguru.grpcflix.movie.MovieServiceGrpc;
-import com.vinsguru.grpcflix.user.UserGenreUpdateRequest;
-import com.vinsguru.grpcflix.user.UserResponse;
-import com.vinsguru.grpcflix.user.UserSearchRequest;
-import com.vinsguru.grpcflix.user.UserServiceGrpc;
+import com.learn.grpcflix.common.Genre;
+import com.learn.grpcflix.movie.MovieSearchRequest;
+import com.learn.grpcflix.movie.MovieSearchResponse;
+import com.learn.grpcflix.movie.MovieServiceGrpc;
+import com.learn.grpcflix.user.UserGenreUpdateRequest;
+import com.learn.grpcflix.user.UserResponse;
+import com.learn.grpcflix.user.UserSearchRequest;
+import com.learn.grpcflix.user.UserServiceGrpc;
 import net.devh.boot.grpc.client.inject.GrpcClient;
 import org.springframework.stereotype.Service;
 

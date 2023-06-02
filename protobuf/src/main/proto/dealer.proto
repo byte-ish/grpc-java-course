@@ -3,7 +3,7 @@ syntax = "proto3";
 import "common/car.proto";
 
 option java_multiple_files = true;
-option java_package = "com.vinsguru.models";
+option java_package = "com.learn.models";
 
 message Dealer {
   map<int32, common.Car> model = 1;
